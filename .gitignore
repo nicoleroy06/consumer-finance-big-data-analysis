@@ -222,3 +222,5 @@ data/
 
 # Generated outputs
 outputs/
+
+.DS_Store
