@@ -31,4 +31,15 @@ spark.sql("""
     LIMIT 10
 """).show(truncate=False)
 
+print("\nTimely response breakdown:")
+
+spark.sql("""
+    SELECT `Timely response?` AS response_status,
+           COUNT(*) AS complaint_count
+    FROM complaints
+    WHERE `Timely response?` IS NOT NULL
+    GROUP BY `Timely response?`
+    ORDER BY complaint_count DESC
+""").show(truncate=False)
+
 spark.stop()
