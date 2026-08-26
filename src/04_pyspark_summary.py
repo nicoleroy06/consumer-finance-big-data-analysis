@@ -17,6 +17,12 @@ df = spark.read.csv(
     quote='"',
     escape='"'
 )
+print("\nTop 10 companies by complaint count:")
+
+df.groupBy("Company") \
+    .count() \
+    .orderBy(col("count").desc()) \
+    .show(10, truncate=False)
 
 print("\nTop 10 complaint products:")
 
