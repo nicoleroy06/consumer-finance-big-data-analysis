@@ -49,6 +49,7 @@ consumer-finance-big-data-analysis/
 ├── images/
 │   └── yearly_complaint_trend.png
 │
+├── requirements.txt
 ├── README.md
 └── .gitignore
 ```
