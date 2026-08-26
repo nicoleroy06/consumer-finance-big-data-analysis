@@ -1,6 +1,16 @@
 # consumer-finance-big-data-analysis
 Large-scale consumer finance analysis using Python, SQL, and PySpark with the CFPB Consumer Complaint Database.
+## Tools & Skills
 
+- Python
+- PySpark
+- Spark SQL
+- Pandas
+- Matplotlib
+- Large-scale data analysis
+- Data aggregation
+- Data visualization
+  
 ## Key Findings
 
 - Analyzed approximately **17.3 million consumer complaints** using PySpark and Spark SQL.
