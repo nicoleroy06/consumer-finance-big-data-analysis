@@ -32,3 +32,23 @@ The CFPB Consumer Complaint Database shows a sharp increase in complaint volume 
 ![CFPB Consumer Complaints by Year](images/yearly_complaint_trend.png)
 
 > 2026 is excluded from the chart because the dataset contains only a partial year.
+
+## Repository Structure
+
+```text
+consumer-finance-big-data-analysis/
+│
+├── src/
+│   ├── 01_data_inspection.py
+│   ├── 02_basic_analysis.py
+│   ├── 03_pyspark_analysis.py
+│   ├── 04_pyspark_summary.py
+│   ├── 05_spark_sql_analysis.py
+│   └── 06_visualize_trend.py
+│
+├── images/
+│   └── yearly_complaint_trend.png
+│
+├── README.md
+└── .gitignore
+```
