@@ -4,6 +4,16 @@ A large-scale analysis of the **Consumer Financial Protection Bureau (CFPB) Cons
 
 This project explores complaint patterns across more than **17.3 million consumer records**, including the most common financial products, companies receiving the most complaints, geographic patterns, company response behavior, and changes in complaint volume over time.
 
+## Project Questions
+
+This project explores:
+
+- Which financial products generate the most consumer complaints?
+- Which companies receive the highest complaint volumes?
+- Which states report the most complaints?
+- How often do companies provide timely responses?
+- How has complaint volume changed over time?
+
 ## Data Source
 
 This project uses the public **Consumer Financial Protection Bureau (CFPB) Consumer Complaint Database**.
