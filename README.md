@@ -1,5 +1,12 @@
-# consumer-finance-big-data-analysis
-Large-scale consumer finance analysis using Python, SQL, and PySpark with the CFPB Consumer Complaint Database.
+
+## Data Source
+
+This project uses the public **Consumer Financial Protection Bureau (CFPB) Consumer Complaint Database**.
+
+The downloaded dataset contained approximately **17.3 million complaint records** at the time of analysis.
+
+The raw CSV is not included in this repository because of its large file size. The `data/` directory is excluded through `.gitignore`.
+
 ## Tools & Skills
 
 - Python
