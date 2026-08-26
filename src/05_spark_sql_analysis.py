@@ -42,4 +42,15 @@ spark.sql("""
     ORDER BY complaint_count DESC
 """).show(truncate=False)
 
+print("\nComplaints by year:")
+
+spark.sql("""
+    SELECT YEAR(TO_DATE(`Date received`, 'MM/dd/yyyy')) AS year,
+           COUNT(*) AS complaint_count
+    FROM complaints
+    WHERE `Date received` IS NOT NULL
+    GROUP BY year
+    ORDER BY year
+""").show(30, truncate=False)
+
 spark.stop()
